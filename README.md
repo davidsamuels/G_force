@@ -1,5 +1,5 @@
 # G_force
-repository of my passion personal project involving force sensing and motorsports
+repository of my passion personal project involving microcontrollers and motorsports
 
 ![party_mode](https://user-images.githubusercontent.com/15238565/161186070-4aa78e2f-fee7-4fa3-a546-1355863cc10d.gif)
 
