@@ -12,6 +12,8 @@ https://user-images.githubusercontent.com/15238565/163262918-7c1ad50d-a557-4db1-
 
 ![party_mode](https://user-images.githubusercontent.com/15238565/161186070-4aa78e2f-fee7-4fa3-a546-1355863cc10d.gif)
 
+![image](https://user-images.githubusercontent.com/15238565/163488613-ce0fa6c1-1f48-4058-8d25-08c9e6e8b0bc.png)
+
 
 ![IMG_20220210_205333](https://user-images.githubusercontent.com/15238565/161184330-d0e52e1b-9fe0-4f9d-ba33-4c6a533f282b.jpg)
 
