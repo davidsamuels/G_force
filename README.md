@@ -19,4 +19,4 @@ https://user-images.githubusercontent.com/15238565/163262918-7c1ad50d-a557-4db1-
 
 ![image](https://user-images.githubusercontent.com/15238565/163488613-ce0fa6c1-1f48-4058-8d25-08c9e6e8b0bc.png)
 
-![3d_model_render](https://user-images.githubusercontent.com/15238565/161182000-32519108-c238-4e1f-a97e-d8ddc1d89385.png)
+![image](https://user-images.githubusercontent.com/15238565/163489065-c497ae97-4332-4c49-809c-80c2d04b8a0a.png)
