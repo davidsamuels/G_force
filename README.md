@@ -1,5 +1,5 @@
 # G_force
--
+
 ## repository of my passion personal project involving microcontrollers and motorsports
 
 *prototype hardware shown below*
