@@ -1,5 +1,8 @@
 # G_force
-repository of my passion personal project involving microcontrollers and motorsports
+-
+## repository of my passion personal project involving microcontrollers and motorsports
+
+*prototype hardware shown below*
 
 
 https://user-images.githubusercontent.com/15238565/163253612-991ed954-f6e4-438f-9013-d2a51dcb510f.mp4
