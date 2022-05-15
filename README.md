@@ -8,7 +8,7 @@ version 1 | done | directionality and RGB in C with arduino dev board |![IMG_202
 version 2 | IP | switching to rasperby pi rp2040  dev board due to chip shortage. Code still being ported. Partial PCB done with manufacturing files and tested | ![IMG_20220430_142512](https://user-images.githubusercontent.com/15238565/168454041-7fbbf34b-aeca-4795-a769-d8a8bec1ed3d.jpg)    
 version 3| queued 😅 | custom PCB with all components |  
 
-*prototype hardware shown below*
+*prototype version 1 hardware shown below*
 ---
 
 
