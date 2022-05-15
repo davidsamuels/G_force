@@ -1,6 +1,12 @@
-# G_force
+# G_force : repository of my passion project involving microcontrollers and motorsports
 
-## repository of my passion personal project involving microcontrollers and motorsports
+## hardware chart
+prototype | status | notes | picture |
+---|---|---| --- | 
+version 0 | done | proof of concept in C with arduino dev board | ![IMG_20220124_190804](https://user-images.githubusercontent.com/15238565/168453909-ffb208f8-b07a-477e-aacd-be832058d9f6.jpg)
+version 1 | done | directionality and RGB in C with arduino dev board |![IMG_20220320_144055](https://user-images.githubusercontent.com/15238565/168453944-0ed86aa2-5a48-4a4a-b667-b68f802de23c.jpg)
+version 2 | IP | switching to rasperby pi rp2040  dev board due to chip shortage. Code still being ported. Partial PCB done with manufacturing files and tested | ![IMG_20220430_142512](https://user-images.githubusercontent.com/15238565/168454041-7fbbf34b-aeca-4795-a769-d8a8bec1ed3d.jpg)    
+version 3| queued 😅 | custom PCB with all components |  
 
 *prototype hardware shown below*
 ---
