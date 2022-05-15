@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/15238565/163253612-991ed954-f6e4-438f-
 
 
 Acceleration gauge cluster point of view.
-*note colors are not getting picked up by the gopro well. Look at the 12 and 6 positions on display to see readout.
+**note colors are not getting picked up by the gopro well**. Look at the 12 and 6 positions on display to see readout.
 
 https://user-images.githubusercontent.com/15238565/163262918-7c1ad50d-a557-4db1-85e5-fd604fd82128.mp4
 
