@@ -7973,7 +7973,7 @@
 	)
 	(symbol
 		(lib_id "B3DQ3:B3DQ3BRG")
-		(at 358.14 212.09 0)
+		(at 443.23 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7981,7 +7981,7 @@
 		(dnp no)
 		(uuid "8e3abac9-f5c9-40c0-911c-ad7e3312d5f3")
 		(property "Reference" "LED1"
-			(at 358.14 208.788 0)
+			(at 443.23 184.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7989,7 +7989,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 358.14 208.28 0)
+			(at 443.23 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7997,7 +7997,7 @@
 			)
 		)
 		(property "Footprint" "B3DQ3BRG_SMT:B3DQ3BRG"
-			(at 363.22 214.63 0)
+			(at 448.31 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,7 +8006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 214.63 0)
+			(at 448.31 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8015,7 +8015,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 363.22 214.63 0)
+			(at 448.31 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
