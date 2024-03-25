@@ -5493,7 +5493,7 @@
 		(uuid "fff856c9-5171-4051-a56f-73adb01725d2")
 	)
 	(rectangle
-		(start 332.74 153.67)
+		(start 251.46 20.32)
 		(end 405.13 238.76)
 		(stroke
 			(width 0)
@@ -5616,7 +5616,7 @@
 	)
 	(text "B3DQ3BRG-05C0001L3U1930 or COM-16347 or adafruit 4893\n\n\n"
 		(exclude_from_sim no)
-		(at 371.602 172.466 0)
+		(at 459.994 16.256 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5636,7 +5636,7 @@
 	)
 	(text "LED crosshiar display"
 		(exclude_from_sim no)
-		(at 343.408 152.654 0)
+		(at 260.604 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5838,6 +5838,90 @@
 			(justify left bottom)
 		)
 		(uuid "f029af6f-4c62-43d8-bb09-d19592aea481")
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 309.88 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bfce0d8-2574-4699-94a1-2a5a695a01ef")
+		(property "Reference" "D13"
+			(at 320.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 317.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 302.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 300.355 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 309.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44bf58e4-2191-471a-8d47-8790f3f121eb")
+		)
+		(pin "2"
+			(uuid "ddba36e4-b740-477e-940e-244b54bf9192")
+		)
+		(pin "3"
+			(uuid "16cfe745-9628-425d-8557-a497d6b28f74")
+		)
+		(pin "4"
+			(uuid "35ef64ab-1db4-4a0f-9c51-594b94ee4db5")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6528,6 +6612,174 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 273.05 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b5d56ce-5747-4991-99ac-98b4804aedf6")
+		(property "Reference" "D2"
+			(at 283.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 280.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 265.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 263.525 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 273.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "455bb8fa-b008-42e9-9c9e-2707268ee96d")
+		)
+		(pin "2"
+			(uuid "f24d0e64-f516-405f-8e72-d194017f38cc")
+		)
+		(pin "3"
+			(uuid "647a4de9-b91e-4942-8035-750998e2327a")
+		)
+		(pin "4"
+			(uuid "144f2de3-2a26-4785-87f3-8cabb59a95a1")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 372.11 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e615a05-711f-4625-95c7-0ee8ab3cf03e")
+		(property "Reference" "D34"
+			(at 382.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 379.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 364.49 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 362.585 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 372.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d01469d-f771-4b68-9a95-b54f233f1286")
+		)
+		(pin "2"
+			(uuid "efdfe9a5-89ec-4bda-9030-59774cf433af")
+		)
+		(pin "3"
+			(uuid "413dbdf1-c234-4fd3-accb-39760504f323")
+		)
+		(pin "4"
+			(uuid "4107fecd-3112-4714-a163-e58afb4d6323")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 157.48 151.13 0)
 		(unit 1)
@@ -6664,6 +6916,90 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 335.28 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3983e563-6888-42bb-8608-80abe51445cc")
+		(property "Reference" "D22"
+			(at 345.44 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 342.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 327.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 325.755 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 335.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f00de80-7975-4104-934d-2850533ed0b2")
+		)
+		(pin "2"
+			(uuid "dd1eb731-8061-45f9-b1db-7868b90c28b9")
+		)
+		(pin "3"
+			(uuid "59592d4b-13ae-4741-ad5f-e14cc0b31e04")
+		)
+		(pin "4"
+			(uuid "519ede86-af95-4638-b4dd-14ed4ed834bb")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 189.23 208.28 0)
 		(unit 1)
@@ -6730,6 +7066,90 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 309.88 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e3a5553-97e7-457a-a776-b07089a8f7ab")
+		(property "Reference" "D14"
+			(at 320.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 317.5 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 302.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 300.355 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 309.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55327cad-f3fe-4b5b-b810-efe3d0a63693")
+		)
+		(pin "2"
+			(uuid "c30b4b37-93fe-4adb-9f10-0015b9cd5bff")
+		)
+		(pin "3"
+			(uuid "0f17a2cf-2e13-4137-bd2b-ab36562c0f8d")
+		)
+		(pin "4"
+			(uuid "264059ae-c024-487b-a1d7-1cdb80395f6c")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 123.19 247.65 0)
 		(unit 1)
@@ -6790,6 +7210,174 @@
 			(project "Kicadv8_demo"
 				(path "/23108dde-8355-49e5-8bf3-b49231735766"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 335.28 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fe6f9da-991d-4140-b1b2-8f307127ecba")
+		(property "Reference" "D25"
+			(at 345.44 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 342.9 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 327.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 325.755 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 335.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c07a787-7395-4b7d-9073-ce7acd3cc927")
+		)
+		(pin "2"
+			(uuid "1318adc7-477a-4339-b803-a9a143af806a")
+		)
+		(pin "3"
+			(uuid "d5b0774c-65cf-4f2c-9c5b-d2f61621992b")
+		)
+		(pin "4"
+			(uuid "441805fc-edcf-43bb-9fc8-7038d1a1abe0")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 273.05 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40ac0884-3d56-4b13-be7d-1e7b8a76c5bf")
+		(property "Reference" "D8"
+			(at 283.21 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 280.67 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 265.43 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 263.525 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 273.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2e98254-a3dc-46ca-acc8-0f05a350b746")
+		)
+		(pin "2"
+			(uuid "4d6b9ab7-cc06-451d-a3a3-df8c27b8903e")
+		)
+		(pin "3"
+			(uuid "ed96558a-9db9-4fa4-a7b6-fea915e1071c")
+		)
+		(pin "4"
+			(uuid "78b0006c-34d4-4e47-abd6-b1f36519201d")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -6928,6 +7516,90 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 335.28 215.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c461409-4dd4-4ac8-b88b-3f967c16db61")
+		(property "Reference" "D30"
+			(at 345.44 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 342.9 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 327.66 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 325.755 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 335.28 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6394d144-66da-484d-b3a6-889d75692653")
+		)
+		(pin "2"
+			(uuid "23b1c7f4-7fe5-4705-ae2d-e34aed3cd382")
+		)
+		(pin "3"
+			(uuid "01111250-02b8-4c60-82cc-1e9c8a48d497")
+		)
+		(pin "4"
+			(uuid "3ad290a5-115b-465d-a56d-d286372b2ed6")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 228.6 157.48 0)
 		(unit 1)
@@ -7059,6 +7731,174 @@
 			(project "Kicadv8_demo"
 				(path "/23108dde-8355-49e5-8bf3-b49231735766"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 309.88 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56d16413-12c6-4dfd-b470-51f606a57c8e")
+		(property "Reference" "D15"
+			(at 320.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 317.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 302.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 300.355 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 309.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77531625-6ff0-4414-bb0e-5beef2177271")
+		)
+		(pin "2"
+			(uuid "2bfe0fd9-793f-4bf1-998e-d9274b63584a")
+		)
+		(pin "3"
+			(uuid "68b6517b-f8b8-44c8-93c7-24179b2645d4")
+		)
+		(pin "4"
+			(uuid "afa05a10-65c6-4a1d-92f1-86881b9ec9e1")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 309.88 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57fe78ca-1940-42ba-b2d5-fda9102afa90")
+		(property "Reference" "D16"
+			(at 320.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 317.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 302.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 300.355 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 309.88 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05836f81-0384-4364-96fe-20c7a991625f")
+		)
+		(pin "2"
+			(uuid "f719d300-40bd-49e1-8f19-125f27d880fa")
+		)
+		(pin "3"
+			(uuid "20be0edd-92df-41b0-b244-e35273de09c3")
+		)
+		(pin "4"
+			(uuid "2f6de3da-937e-456d-add3-5795340c8df1")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -7417,6 +8257,174 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 309.88 215.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63ae08f4-086e-4f15-98a1-5401d5506026")
+		(property "Reference" "D20"
+			(at 320.04 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 317.5 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 302.26 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 300.355 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 309.88 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab616818-fc8e-4e59-9486-792942fc13c8")
+		)
+		(pin "2"
+			(uuid "f87342c4-7985-45b3-acac-9e1c9fd2f0ec")
+		)
+		(pin "3"
+			(uuid "b9041605-0cf3-4641-8341-ba5cd9fea7bd")
+		)
+		(pin "4"
+			(uuid "675ab8a1-a046-4428-bd3e-9862a58320f0")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 335.28 195.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68540de5-0d93-4e4d-a4ff-80d28c8ac922")
+		(property "Reference" "D29"
+			(at 345.44 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 342.9 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 327.66 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 325.755 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 335.28 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "684bbdb7-7f8f-45f2-8961-d699b87300db")
+		)
+		(pin "2"
+			(uuid "336bb360-2b51-4494-983f-cae6384d16a6")
+		)
+		(pin "3"
+			(uuid "eaa11846-568b-4129-af70-36b953b295fb")
+		)
+		(pin "4"
+			(uuid "a00597e4-9deb-455e-997b-009a361debcf")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:AP2112K-3.3")
 		(at 137.16 217.17 0)
 		(unit 1)
@@ -7699,6 +8707,90 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 273.05 195.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70374be9-c72f-4351-b7fb-6d2e0f7c4740")
+		(property "Reference" "D9"
+			(at 283.21 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 280.67 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 265.43 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 263.525 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 273.05 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83356767-111d-47cf-acde-8e2c5f52e8aa")
+		)
+		(pin "2"
+			(uuid "c2bc556a-d10a-4e3a-809d-001984c305c4")
+		)
+		(pin "3"
+			(uuid "f25b1929-01d6-4516-ae69-e4e347ca5227")
+		)
+		(pin "4"
+			(uuid "66442e5e-839c-4bf7-afd0-d21d26afaf70")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 73.66 163.83 270)
 		(unit 1)
@@ -7760,6 +8852,426 @@
 			(project "Kicadv8_demo"
 				(path "/23108dde-8355-49e5-8bf3-b49231735766"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 273.05 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77df51af-657b-41da-9478-a9dd1e3a94b5")
+		(property "Reference" "D3"
+			(at 283.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 280.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 265.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 263.525 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 273.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e012adbd-ee53-4cfa-b373-7e9a22636f67")
+		)
+		(pin "2"
+			(uuid "3c3a505a-c4b0-4ad3-85b3-597fb211bffe")
+		)
+		(pin "3"
+			(uuid "4fdc50e3-5468-4929-a2c4-2fd88048fba9")
+		)
+		(pin "4"
+			(uuid "65fb5cd8-c5e1-4f81-8d7a-d5d44fe87b53")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 309.88 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e581d89-4b38-4246-9cee-5f8fc1c52646")
+		(property "Reference" "D18"
+			(at 320.04 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 317.5 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 302.26 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 300.355 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 309.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f48107b5-9f0c-4322-bb41-6b0459371bf2")
+		)
+		(pin "2"
+			(uuid "f087900e-3ee0-410e-bac2-3a04c4545b6b")
+		)
+		(pin "3"
+			(uuid "2f8fc2e3-4baf-46e8-a74c-09c495939658")
+		)
+		(pin "4"
+			(uuid "8cffba70-c1c6-405b-b56f-da3a25e80720")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 309.88 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "828d0a12-f4a5-46be-a0e4-10c29b67f094")
+		(property "Reference" "D17"
+			(at 320.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 317.5 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 302.26 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 300.355 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 309.88 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baa1b800-5c80-407d-ab87-9bddb9bbec53")
+		)
+		(pin "2"
+			(uuid "3b65f8be-3e4b-4397-af68-ac9220fdcc01")
+		)
+		(pin "3"
+			(uuid "69e1ffa9-2bdb-43ef-96b9-ba76d7893a7b")
+		)
+		(pin "4"
+			(uuid "39e051d1-88ec-424b-a2b4-ac191ba18733")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 372.11 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8427d715-dd3a-4e17-a4ed-071a59df4c98")
+		(property "Reference" "D35"
+			(at 382.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 379.73 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 364.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 362.585 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 372.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0646d82f-53d2-4273-84e5-513b53a44bba")
+		)
+		(pin "2"
+			(uuid "68ee119c-6891-4c99-a653-13cfb9e1b443")
+		)
+		(pin "3"
+			(uuid "c0f83885-611b-446c-a22b-c8130c9ccef4")
+		)
+		(pin "4"
+			(uuid "63ca2b94-f1d1-4d29-ba10-2c42839d1f09")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 273.05 215.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "850be76c-a500-4613-a5e4-913b9da4871a")
+		(property "Reference" "D10"
+			(at 283.21 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 280.67 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 265.43 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 263.525 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 273.05 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbd72b54-e2ec-4a89-980d-181fef08a5bd")
+		)
+		(pin "2"
+			(uuid "4250c859-3249-47bf-8bb2-e1716ade0e24")
+		)
+		(pin "3"
+			(uuid "dcbdd2d9-e15c-43d0-9685-97900c345f06")
+		)
+		(pin "4"
+			(uuid "ff8c8548-c692-40af-ae01-c37a3962b918")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -7903,6 +9415,90 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 372.11 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b079683-6798-49ee-a3d3-9430ff4d7c2a")
+		(property "Reference" "D38"
+			(at 382.27 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 379.73 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 364.49 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 362.585 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 372.11 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3df29a5d-7af5-4ca9-87ec-4f0342f8addd")
+		)
+		(pin "2"
+			(uuid "acbb5a5f-ead9-4126-a790-d9c74173ecb9")
+		)
+		(pin "3"
+			(uuid "3dd5eea6-582f-468c-9d88-c3ee22097f0b")
+		)
+		(pin "4"
+			(uuid "20db9452-8799-4bb9-a2e0-95d2d3fc2744")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 148.59 251.46 0)
 		(unit 1)
@@ -7973,7 +9569,7 @@
 	)
 	(symbol
 		(lib_id "B3DQ3:B3DQ3BRG")
-		(at 443.23 187.96 0)
+		(at 454.66 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7981,7 +9577,7 @@
 		(dnp no)
 		(uuid "8e3abac9-f5c9-40c0-911c-ad7e3312d5f3")
 		(property "Reference" "LED1"
-			(at 443.23 184.658 0)
+			(at 454.66 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7989,7 +9585,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 443.23 184.15 0)
+			(at 454.66 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7997,7 +9593,7 @@
 			)
 		)
 		(property "Footprint" "B3DQ3BRG_SMT:B3DQ3BRG"
-			(at 448.31 190.5 0)
+			(at 459.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,7 +9602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 448.31 190.5 0)
+			(at 459.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8015,7 +9611,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 448.31 190.5 0)
+			(at 459.74 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8039,6 +9635,258 @@
 			(project "Kicadv8_demo"
 				(path "/23108dde-8355-49e5-8bf3-b49231735766"
 					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 372.11 215.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f25cafe-7481-4b42-8a43-f36a2e0a58f3")
+		(property "Reference" "D40"
+			(at 382.27 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 379.73 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 364.49 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 362.585 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 372.11 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dc6a85b-6b4d-4c94-afa5-68709436aa57")
+		)
+		(pin "2"
+			(uuid "0ff47748-cecd-488d-81d6-4fd0f4a761e5")
+		)
+		(pin "3"
+			(uuid "576dce44-8a76-46d0-8fff-4282c4386247")
+		)
+		(pin "4"
+			(uuid "f4978356-d1cb-480d-bbe9-d1565dca54f8")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 335.28 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fb77966-7299-4209-a45d-a8879e53f118")
+		(property "Reference" "D23"
+			(at 345.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 342.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 327.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 325.755 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 335.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80222383-94b2-48a2-a338-7de81bba5889")
+		)
+		(pin "2"
+			(uuid "fb5ab0f5-b6bc-4afc-9bd5-983568742d90")
+		)
+		(pin "3"
+			(uuid "25eac042-2a0d-48af-8652-ff48e9580e1b")
+		)
+		(pin "4"
+			(uuid "0471c0c0-7c01-40d1-87ba-b4659a9c1a04")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 273.05 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "917b318a-bb62-4b21-ae70-5e302cefdca8")
+		(property "Reference" "D6"
+			(at 283.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 280.67 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 265.43 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 263.525 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 273.05 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b195cc8d-993b-402a-8aa2-82f831ab9fb7")
+		)
+		(pin "2"
+			(uuid "2cbe531c-b7d9-43df-a250-44b118e2b230")
+		)
+		(pin "3"
+			(uuid "9fcabcb1-02be-4dc4-81a1-41a70ff1622b")
+		)
+		(pin "4"
+			(uuid "c58ac7d3-d8a8-4a8e-8c2a-e0ad2559c864")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8109,6 +9957,174 @@
 			(project "Kicadv8_demo"
 				(path "/23108dde-8355-49e5-8bf3-b49231735766"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 372.11 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96f8df1e-7c75-4649-9d35-902d4a927dfd")
+		(property "Reference" "D33"
+			(at 382.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 379.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 364.49 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 362.585 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 372.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd455691-d6dd-476e-86f4-dfc2cab6cd30")
+		)
+		(pin "2"
+			(uuid "dd8f61c8-768f-40a7-b600-4e90ef3be7d9")
+		)
+		(pin "3"
+			(uuid "98a33a78-c889-435e-b79f-56e7fef0f90a")
+		)
+		(pin "4"
+			(uuid "67546a77-d907-48c3-9bd4-c2130f9b3bc6")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 335.28 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99ab48b4-ece6-4374-9ffe-dab77e13432a")
+		(property "Reference" "D27"
+			(at 345.44 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 342.9 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 327.66 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 325.755 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 335.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c9be841-0c57-4f27-bc1b-f3aa43aa2129")
+		)
+		(pin "2"
+			(uuid "8e775e42-6de8-4e48-ac70-35bd4283a55b")
+		)
+		(pin "3"
+			(uuid "cfac1b04-36ab-45da-a09d-467c95b7b9bd")
+		)
+		(pin "4"
+			(uuid "54bfd636-60ca-4789-b0ca-cbeefbc5f63d")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -8317,6 +10333,90 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 273.05 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a881b9d5-1552-4e0d-9593-778ceaebd540")
+		(property "Reference" "D4"
+			(at 283.21 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 280.67 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 265.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 263.525 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 273.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb48f398-d4d7-4afc-8ca6-7eeac8ef6088")
+		)
+		(pin "2"
+			(uuid "8db46cd2-1dc4-4798-a3a8-034db507407a")
+		)
+		(pin "3"
+			(uuid "ce78052d-1439-400c-a4f5-06f4bab89f1f")
+		)
+		(pin "4"
+			(uuid "6a1191c4-5935-42d1-ba9c-da687ddb2ec8")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Motion:LIS3DH")
 		(at 161.29 66.04 0)
 		(unit 1)
@@ -8429,6 +10529,174 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 335.28 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae236375-fd8d-4705-8dcf-59ae6da05a98")
+		(property "Reference" "D21"
+			(at 345.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 342.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 327.66 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 325.755 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 335.28 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c55bbf47-c10f-49ee-858d-2758427ef0eb")
+		)
+		(pin "2"
+			(uuid "8ba68c18-cdcc-4043-a6b4-63e0c65e946a")
+		)
+		(pin "3"
+			(uuid "e9228836-d0d8-42d6-b53d-17efcb611b70")
+		)
+		(pin "4"
+			(uuid "5e082358-8ab0-4f4e-a845-d9e01e163084")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 372.11 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b58b5c9d-ad2c-47ea-b515-160e6688bbcb")
+		(property "Reference" "D31"
+			(at 382.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 379.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 364.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 362.585 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 372.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "516c41e5-68d6-4953-a425-817a7e631224")
+		)
+		(pin "2"
+			(uuid "f62b6546-0769-48fc-beec-128019436788")
+		)
+		(pin "3"
+			(uuid "ffc9e0fc-48d5-42cc-917a-e281dea9ddad")
+		)
+		(pin "4"
+			(uuid "36649aa0-cea8-497e-8e64-cbda445fd1d4")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 132.08 53.34 0)
 		(unit 1)
@@ -8489,6 +10757,174 @@
 			(project "Kicadv8_demo"
 				(path "/23108dde-8355-49e5-8bf3-b49231735766"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 335.28 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8cfbf13-188c-48c4-aaf9-e1a2897f7602")
+		(property "Reference" "D28"
+			(at 345.44 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 342.9 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 327.66 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 325.755 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 335.28 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24c71333-3e10-4e54-bd33-38d5bde8586c")
+		)
+		(pin "2"
+			(uuid "e3556456-fc23-4d19-b902-a20529fe57e8")
+		)
+		(pin "3"
+			(uuid "c3db9412-871f-42f3-9d0a-b11305c79d90")
+		)
+		(pin "4"
+			(uuid "91b8ea73-935c-4049-b3b2-f966ffb6b222")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 309.88 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb458d06-481f-432d-a99a-14079b86952d")
+		(property "Reference" "D12"
+			(at 320.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 317.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 302.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 300.355 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 309.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23651c17-72e1-48ed-b0aa-5c0b0baf229c")
+		)
+		(pin "2"
+			(uuid "b1bccd66-aad2-4f43-a3a0-a1c185520066")
+		)
+		(pin "3"
+			(uuid "0eb2a6d7-efee-49c1-bdb4-b9eed194d8c1")
+		)
+		(pin "4"
+			(uuid "63e92661-798a-4343-8bf9-d02f46bfaacb")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -8753,6 +11189,90 @@
 			(project "Kicadv8_demo"
 				(path "/23108dde-8355-49e5-8bf3-b49231735766"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 335.28 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c220b2b6-dcff-4d76-a67a-4f6bb9cfe0ac")
+		(property "Reference" "D24"
+			(at 345.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 342.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 327.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 325.755 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 335.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86b3c55e-3f2c-4f25-a9f8-674fd951bf42")
+		)
+		(pin "2"
+			(uuid "3f406f7d-97e4-47b3-839b-917afc9ceef3")
+		)
+		(pin "3"
+			(uuid "1851a096-629d-4733-8a35-57685a7917b7")
+		)
+		(pin "4"
+			(uuid "0e80cd26-353c-4e53-89ea-daba3eada52f")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -9088,6 +11608,90 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 309.88 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c887d3aa-2520-4422-bd4b-b4ef8939a030")
+		(property "Reference" "D11"
+			(at 320.04 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 317.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 302.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 300.355 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 309.88 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c07e676-667e-4f49-aa35-b5a4a8bccf71")
+		)
+		(pin "2"
+			(uuid "aa01fbbb-a63b-4640-bf69-462038113ab1")
+		)
+		(pin "3"
+			(uuid "74047357-9705-4147-8c12-e7e0f7fddbbd")
+		)
+		(pin "4"
+			(uuid "1ad6952a-7db6-49dc-bde2-30cf1ee8553a")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 135.89 251.46 0)
 		(unit 1)
@@ -9224,6 +11828,90 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 372.11 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d798705e-8727-4b5f-9124-7dab10cb628f")
+		(property "Reference" "D36"
+			(at 382.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 379.73 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 364.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 362.585 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 372.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc0ce699-3818-4486-b66f-247e41e9282e")
+		)
+		(pin "2"
+			(uuid "b94095b1-ad4e-4022-adb0-6a2bf1018414")
+		)
+		(pin "3"
+			(uuid "7cacfe0b-22b0-464c-973c-1374e23bcd7c")
+		)
+		(pin "4"
+			(uuid "0e4cbd15-d9ba-4582-a675-bb630205de16")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 60.96 180)
 		(unit 1)
@@ -9284,6 +11972,90 @@
 			(project "Kicadv8_demo"
 				(path "/23108dde-8355-49e5-8bf3-b49231735766"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 335.28 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da5425c6-0f3d-410c-b1dd-8417c06171d1")
+		(property "Reference" "D26"
+			(at 345.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 342.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 327.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 325.755 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 335.28 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2293a00-93e5-4364-96e7-9ced4369e96b")
+		)
+		(pin "2"
+			(uuid "9b33bb70-2302-461c-a367-6c62700c239a")
+		)
+		(pin "3"
+			(uuid "fcf5e5f3-7f0b-4952-a399-f9f8d6d9efc5")
+		)
+		(pin "4"
+			(uuid "139c0093-f78c-43f5-90e2-f886ba7c93b7")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -9357,15 +12129,15 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 359.41 190.5 0)
+		(at 273.05 154.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "eca6fa90-79cf-44d5-8e10-12158f764d9f")
-		(property "Reference" "D1"
-			(at 364.49 180.34 0)
+		(uuid "e4640b1c-36f1-4c7c-a592-003875f6a559")
+		(property "Reference" "D7"
+			(at 283.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9373,7 +12145,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 365.76 182.88 0)
+			(at 280.67 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9381,7 +12153,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 360.68 198.12 0)
+			(at 265.43 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9391,7 +12163,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 361.95 200.025 0)
+			(at 263.525 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9401,7 +12173,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 359.41 190.5 0)
+			(at 273.05 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9410,7 +12182,259 @@
 			)
 		)
 		(property "LCSC Part Number" "C2761795"
-			(at 359.41 190.5 0)
+			(at 273.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "030b1fa9-0577-424f-8ca0-14090bfc48a7")
+		)
+		(pin "2"
+			(uuid "3d91d1ef-2e69-472f-b6b0-bf03cefd1b93")
+		)
+		(pin "3"
+			(uuid "08b77447-6719-4c56-894d-220541e2adc2")
+		)
+		(pin "4"
+			(uuid "766eddf7-b5c0-4ce5-af3c-ed80f0c24cd3")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 372.11 195.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e727f9d4-3fea-4930-86ca-5d16fa88b798")
+		(property "Reference" "D39"
+			(at 382.27 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 379.73 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 364.49 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 362.585 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 372.11 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd99c7eb-74fe-4d18-83a2-9a805a5ab748")
+		)
+		(pin "2"
+			(uuid "a02d853d-43f2-47f5-bd3f-e44a0d6f77cd")
+		)
+		(pin "3"
+			(uuid "42b97baa-a061-49b7-bca2-a66541639331")
+		)
+		(pin "4"
+			(uuid "24e4efdf-8d73-45df-9220-9b86fd3d5309")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 273.05 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e72cfa3f-1e4c-4896-ad7d-0c811172eeb9")
+		(property "Reference" "D5"
+			(at 283.21 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 280.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 265.43 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 263.525 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 273.05 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adf1849a-7a74-4c58-b8fe-9992b72d31ef")
+		)
+		(pin "2"
+			(uuid "8e2ccdeb-13e0-4b86-ad6c-46b027b510f1")
+		)
+		(pin "3"
+			(uuid "cb0a68f8-a2ff-4c30-a352-a583015128cc")
+		)
+		(pin "4"
+			(uuid "c05e1163-9581-441e-be60-d68b4624f11a")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 273.05 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eca6fa90-79cf-44d5-8e10-12158f764d9f")
+		(property "Reference" "D1"
+			(at 283.21 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 280.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 265.43 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 263.525 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 273.05 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9434,6 +12458,174 @@
 			(project "Kicadv8_demo"
 				(path "/23108dde-8355-49e5-8bf3-b49231735766"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 372.11 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef13abb6-ceda-4b68-953c-6c0d67f0b8fb")
+		(property "Reference" "D37"
+			(at 382.27 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 379.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 364.49 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 362.585 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 372.11 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e16ca860-bf3f-4884-ae79-2eec71dbea7e")
+		)
+		(pin "2"
+			(uuid "698aa585-bc64-40d3-9711-2bc0089e13aa")
+		)
+		(pin "3"
+			(uuid "a0dd5a5f-706c-45a8-9cbc-f41f57dbe7a6")
+		)
+		(pin "4"
+			(uuid "3ab75181-5e30-4622-9278-5dd682a14901")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 309.88 195.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef89a521-0124-4ace-953c-984dc3925e26")
+		(property "Reference" "D19"
+			(at 320.04 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 317.5 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 302.26 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 300.355 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 309.88 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05dae7a3-2cc9-48d9-b324-5e46093ba18a")
+		)
+		(pin "2"
+			(uuid "322fbaa9-b4d4-4e0e-a22b-e5c26ee8842f")
+		)
+		(pin "3"
+			(uuid "8e4428c9-f042-4694-8808-dc36fc5fed89")
+		)
+		(pin "4"
+			(uuid "7071e628-a429-42f8-bdfd-af77dbb6dfc6")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -9500,6 +12692,90 @@
 			(project "Kicadv8_demo"
 				(path "/23108dde-8355-49e5-8bf3-b49231735766"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 372.11 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff85452d-7ed0-407d-bdd3-f1ab6e6b1dc6")
+		(property "Reference" "D32"
+			(at 382.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 379.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 364.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 362.585 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2761795"
+			(at 372.11 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ccb0af7-2b91-4e73-a7ca-29e242734d2a")
+		)
+		(pin "2"
+			(uuid "d5677a88-b515-4b2c-a75f-e09283fea626")
+		)
+		(pin "3"
+			(uuid "05f51a64-fe23-4b75-ace7-a15fd04966f3")
+		)
+		(pin "4"
+			(uuid "88689924-d710-4a81-9855-7c76806dbf55")
+		)
+		(instances
+			(project "Kicadv8_demo"
+				(path "/23108dde-8355-49e5-8bf3-b49231735766"
+					(reference "D32")
 					(unit 1)
 				)
 			)
