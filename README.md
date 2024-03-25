@@ -5,8 +5,9 @@ prototype | status | notes | picture |
 ---|---|---| --- | 
 version 0 | done | proof of concept in C with arduino dev board | ![IMG_20220124_190804](https://user-images.githubusercontent.com/15238565/168453909-ffb208f8-b07a-477e-aacd-be832058d9f6.jpg)
 version 1 | done | directionality and RGB in C with arduino dev board |![IMG_20220320_144055](https://user-images.githubusercontent.com/15238565/168453944-0ed86aa2-5a48-4a4a-b667-b68f802de23c.jpg)
-version 2 | IP | switching to rasperby pi rp2040  dev board due to chip shortage. Code still being ported. Partial PCB done with manufacturing files and tested | ![IMG_20220430_142512](https://user-images.githubusercontent.com/15238565/168454041-7fbbf34b-aeca-4795-a769-d8a8bec1ed3d.jpg)    
-version 3| queued 😅 | custom PCB with all components |  
+version 2 | done | switching to rasperby pi rp2040  dev board due to chip shortage. Code still being ported. Partial PCB done with manufacturing files and tested | ![IMG_20220430_142512](https://user-images.githubusercontent.com/15238565/168454041-7fbbf34b-aeca-4795-a769-d8a8bec1ed3d.jpg)    
+version 3| IP | custom PCB with all components. Switching to Esp32 ecosystem due to wifi/BT |  ![image](https://github.com/davidsamuels/G_force/assets/15238565/1d61a47b-1d3d-45cf-8f5d-53ed779ceeeb)
+
 
 *prototype version 1 hardware shown below*
 ---
@@ -38,3 +39,10 @@ PCB layout screenshot.
 
 3D render of prototype hardware v2
 ![image](https://user-images.githubusercontent.com/15238565/163489065-c497ae97-4332-4c49-809c-80c2d04b8a0a.png)
+
+3D render of prototype hardware v3
+![image](https://github.com/davidsamuels/G_force/assets/15238565/44a7074a-0401-4afc-b512-4c01e8a6b861)
+Back side view
+![image](https://github.com/davidsamuels/G_force/assets/15238565/1e9b3268-fe32-4b3c-b8c2-e03a7622c008)
+
+
