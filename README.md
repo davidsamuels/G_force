@@ -45,4 +45,11 @@ PCB layout screenshot.
 Back side view
 ![image](https://github.com/davidsamuels/G_force/assets/15238565/1e9b3268-fe32-4b3c-b8c2-e03a7622c008)
 
+Schematic v3
+![image](https://github.com/davidsamuels/G_force/assets/15238565/e6af278e-8dc1-4815-9378-3f9a8e64a01f)
+
+Layout v3
+![image](https://github.com/davidsamuels/G_force/assets/15238565/b6bb65aa-a43b-47f9-9c1a-9e4a57fabea9)
+
+
 
